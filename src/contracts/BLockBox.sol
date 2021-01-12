@@ -19,14 +19,14 @@ contract BLockBox {
   }
 
   event UploadComplete (
-    uint fileID;
-    string fileHash;
-    uint fileSize;
-    string fileType;
-    string fileName;
-    string fileDescription;
-    uint uploadTime;
-    address payable uploader;
+    uint fileID,
+    string fileHash,
+    uint fileSize,
+    string fileType,
+    string fileName,
+    string fileDescription,
+    uint uploadTime,
+    address payable uploader
   );
   constructor() public {
 
@@ -44,8 +44,8 @@ contract BLockBox {
 
 
     idCount++;
-    files[idCount] = File(idCount,_fileHash,_fileSize,_fileType, _fileName, _description, now, msg.sender)
-    emit UploadCompete()
-  };
+    files[idCount] = File(idCount,_fileHash,_fileSize,_fileType, _fileName, _description, now, msg.sender);
+    emit UploadComplete(idCount,_fileHash,_fileSize,_fileType, _fileName, _description, now, msg.sender);
+  }
 
 }
