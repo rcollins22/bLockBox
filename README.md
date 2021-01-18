@@ -1,5 +1,3 @@
-## ``` (b)LockBox, Decentralized File Storage. ```
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -35,11 +33,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 (b)LockBox is a DropBox like clone that leverages blockchain technology in order for you to store, access, and share files, without an intermediary party. 
+Using MetaMask, users are able to upload their files to IPFS, which then returns a hash stored within our blockchain network that allows users direct access to the files. Eliminating the need for a third party.
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-## 🔧 Project Diagram:
-![Project Diagram](https://i.gyazo.com/2738ea6743a40036756b1b5714ab9fa8.png)
+
 
 
 ### Complete Tech Stack:
@@ -81,14 +79,8 @@ This is an example of how to list things you need to use the software and how to
    npm install
    ```
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+## 🔧 Project Diagram:
+![Project Diagram](https://i.gyazo.com/2738ea6743a40036756b1b5714ab9fa8.png)
 
 
 
@@ -106,7 +98,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
- [Linkin](https://www.linkedin.com/in/rashad-codes)
+ [Linkedin](https://www.linkedin.com/in/rashad-codes)
 
 
 
@@ -115,7 +107,6 @@ Contributions are what make the open source community such an amazing place to b
 
 * Dapp University
 * [othneildrew](https://github.com/othneildrew)
-* []()
 
 
 
