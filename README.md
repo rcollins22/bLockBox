@@ -47,16 +47,16 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+(b)LockBox is a DropBox like clone that leverages blockchain technology in order for you to store, access, and share files, without an intermediary party.
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 ## 🔧 Project Diagram:
 ![Project Diagram](https://i.gyazo.com/2738ea6743a40036756b1b5714ab9fa8.png)
 
 
-### Built With
+### Complete Tech Stack:
 
-* []() 
+* [Solidity]()
 * []()
 * []()
 
