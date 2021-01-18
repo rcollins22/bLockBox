@@ -126,8 +126,6 @@ class App extends Component {
       type: null,
       name: null
     };
-
-    //Bind functions
   }
 
   render() {
@@ -136,7 +134,7 @@ class App extends Component {
         <Navbar account={this.state.account} />
         {this.state.loading ? (
           <div id="loader" className="text-center mt-5">
-            <Spinner animation ="border" size="xl"/>
+            <Spinner animation ="border" variant="success"/>
           </div>
         ) : (
           <Main

@@ -1,10 +1,8 @@
 pragma solidity ^0.5.0;
 
 contract BLockBox {
-  //naming blockchain
   string public name = "bLockBox";
   uint public idCount = 0;
-  // creating interable mapping of files
   mapping (uint => File) public files;
 
   struct File {
