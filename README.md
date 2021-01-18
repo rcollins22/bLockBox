@@ -1,18 +1,5 @@
 ## ``` (b)LockBox, Decentralized File Storage. ```
 
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -47,7 +34,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-(b)LockBox is a DropBox like clone that leverages blockchain technology in order for you to store, access, and share files, without an intermediary party.
+(b)LockBox is a DropBox like clone that leverages blockchain technology in order for you to store, access, and share files, without an intermediary party. 
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 ## 🔧 Project Diagram:
@@ -56,9 +44,16 @@
 
 ### Complete Tech Stack:
 
-* [Solidity]()
-* []()
-* []()
+* Solidity
+* React.Js
+* Web3js
+* MetaMask
+* Node/Express js
+* Truffle
+* Ganache
+* Mocha (Chai)
+* IPFS 
+
 
 
 
@@ -118,8 +113,8 @@ Contributions are what make the open source community such an amazing place to b
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Dapp University]()
-* []()
+* Dapp University
+* [othneildrew](https://github.com/othneildrew)
 * []()
 
 

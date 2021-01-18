@@ -20,7 +20,7 @@ class Main extends Component {
               >
                 <h2 className="text-white text-monospace bg-success">
                   <b>
-                    <ins>Add File to bLockBox</ins>
+                    <ins>Add File to (b)LockBox</ins>
                   </b>
                 </h2>
                 <form
