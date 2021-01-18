@@ -111,9 +111,10 @@ contract("BLockBox", ([deployer, uploader]) => {
       }).should.be.rejected;
     });
 
-    //check from Struct
     // it("lists file", async () => {
     //   const file = await blockbox.files(idCount);
+    //   console.log("FILE ID", file.fileID)
+    //   console.log("ID COUNT",idCount)
     //   assert.equal(
     //     file.fileId.toNumber(),
     //     idCount.toNumber(),

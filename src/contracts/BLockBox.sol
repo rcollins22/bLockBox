@@ -4,7 +4,7 @@ contract BLockBox {
   //naming blockchain
   string public name = "bLockBox";
   uint public idCount = 0;
-  // creating interable mapping of files, FE*
+  // creating interable mapping of files
   mapping (uint => File) public files;
 
   struct File {
