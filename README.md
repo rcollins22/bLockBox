@@ -35,7 +35,7 @@
 (b)LockBox is a DropBox like clone that leverages blockchain technology in order for you to store, access, and share files, without an intermediary party. 
 Using MetaMask, users are able to upload their files to IPFS, which then returns a hash stored within our blockchain network that allows users direct access to the files. Eliminating the need for a third party.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![ProjectGif](bLockBoxDemo.gif)
 
 
 
@@ -83,6 +83,9 @@ This is an example of how to list things you need to use the software and how to
 ![Project Diagram](https://i.gyazo.com/2738ea6743a40036756b1b5714ab9fa8.png)
 
 
+
+<!-- CONTRIBUTING -->
+## Contract
 
 <!-- CONTRIBUTING -->
 ## Contributing

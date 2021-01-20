@@ -54,7 +54,7 @@ class Main extends Component {
                 </form>
               </div>
               <p>&nbsp;</p>
-              <h1 className=" text-monospace">Your bLockBox</h1>
+              <h1 className=" text-monospace">Your (b)LockBox</h1>
               <table
                 className="table-sm table-bordered text-monospace"
                 style={{ width: "1000px", maxHeight: "450px" }}

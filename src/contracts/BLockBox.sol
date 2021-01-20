@@ -1,11 +1,11 @@
 pragma solidity ^0.5.0;
 
 contract BLockBox {
-  string public name = "bLockBox";
+  string public name = "bLockBox";      //NAMING CONTRACT
   uint public idCount = 0;
-  mapping (uint => File) public files;
+  mapping (uint => File) public files;    //MAPPING OF FILES CREATED
 
-  struct File {
+  struct File {               // FILES FOR MAPPING CREATED WITH STRUCT
     uint fileID;
     string fileHash;
     uint fileSize;
@@ -16,7 +16,7 @@ contract BLockBox {
     address payable uploader;
   }
 
-  event UploadComplete (
+  event UploadComplete (      //EVENT SET FOR A SUCCESSFUL UPLOAD 
     uint fileID,
     string fileHash,
     uint fileSize,
