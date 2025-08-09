@@ -162,82 +162,6 @@ class Main extends Component {
                   </tbody>
                 </table>
               </div>
-            </div>
-          </div>
-
-          {/* Right Sidebar */}
-          <div className="col-lg-4">
-            {/* Storage Usage Card */}
-            <div className="bg-white rounded shadow-sm p-4 mb-4">
-              <div className="d-flex justify-content-between align-items-center mb-3">
-                <h6 className="mb-0 font-weight-bold">Storage Usage</h6>
-                <span className="text-muted">4.25 GB usd</span>
-              </div>
-              <div className="progress" style={{height: '8px'}}>
-                <div 
-                  className="progress-bar bg-primary" 
-                  role="progressbar" 
-                  style={{width: '65%'}}
-                ></div>
-              </div>
-            </div>
-
-            {/* Node Status Card */}
-            <div className="bg-white rounded shadow-sm p-4">
-              <div className="d-flex justify-content-between align-items-center mb-3">
-                <h6 className="mb-0 font-weight-bold">Node Status</h6>
-                <span className="text-muted">42%</span>
-              </div>
-              <div className="status-list">
-                <div className="d-flex align-items-center mb-2">
-                  <span 
-                    className="status-dot mr-2"
-                    style={{
-                      width: '8px',
-                      height: '8px',
-                      backgroundColor: '#28a745',
-                      borderRadius: '50%',
-                      display: 'inline-block'
-                    }}
-                  ></span>
-                  <span className="text-sm">Gateway • Online</span>
-                </div>
-                <div className="d-flex align-items-center mb-2">
-                  <span 
-                    className="status-dot mr-2"
-                    style={{
-                      width: '8px',
-                      height: '8px',
-                      backgroundColor: '#6c757d',
-                      borderRadius: '50%',
-                      display: 'inline-block'
-                    }}
-                  ></span>
-                  <span className="text-sm">Pinning • Syncing...</span>
-                </div>
-                <div className="d-flex align-items-center">
-                  <span 
-                    className="status-dot mr-2"
-                    style={{
-                      width: '8px',
-                      height: '8px',
-                      backgroundColor: '#6c757d',
-                      borderRadius: '50%',
-                      display: 'inline-block'
-                    }}
-                  ></span>
-                  <span className="text-sm">Peers • 14</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-}
-
-export default Main;
                 <form
                   onSubmit={(event) => {
                     event.preventDefault();
@@ -344,7 +268,74 @@ export default Main;
                 })}
               </table>
             </div>
-          </main>
+          </div>
+
+          {/* Right Sidebar */}
+          <div className="col-lg-4">
+            {/* Storage Usage Card */}
+            <div className="bg-white rounded shadow-sm p-4 mb-4">
+              <div className="d-flex justify-content-between align-items-center mb-3">
+                <h6 className="mb-0 font-weight-bold">Storage Usage</h6>
+                <span className="text-muted">4.25 GB usd</span>
+              </div>
+              <div className="progress" style={{height: '8px'}}>
+                <div 
+                  className="progress-bar bg-primary" 
+                  role="progressbar" 
+                  style={{width: '65%'}}
+                ></div>
+              </div>
+            </div>
+
+            {/* Node Status Card */}
+            <div className="bg-white rounded shadow-sm p-4">
+              <div className="d-flex justify-content-between align-items-center mb-3">
+                <h6 className="mb-0 font-weight-bold">Node Status</h6>
+                <span className="text-muted">42%</span>
+              </div>
+              <div className="status-list">
+                <div className="d-flex align-items-center mb-2">
+                  <span 
+                    className="status-dot mr-2"
+                    style={{
+                      width: '8px',
+                      height: '8px',
+                      backgroundColor: '#28a745',
+                      borderRadius: '50%',
+                      display: 'inline-block'
+                    }}
+                  ></span>
+                  <span className="text-sm">Gateway • Online</span>
+                </div>
+                <div className="d-flex align-items-center mb-2">
+                  <span 
+                    className="status-dot mr-2"
+                    style={{
+                      width: '8px',
+                      height: '8px',
+                      backgroundColor: '#6c757d',
+                      borderRadius: '50%',
+                      display: 'inline-block'
+                    }}
+                  ></span>
+                  <span className="text-sm">Pinning • Syncing...</span>
+                </div>
+                <div className="d-flex align-items-center">
+                  <span 
+                    className="status-dot mr-2"
+                    style={{
+                      width: '8px',
+                      height: '8px',
+                      backgroundColor: '#6c757d',
+                      borderRadius: '50%',
+                      display: 'inline-block'
+                    }}
+                  ></span>
+                  <span className="text-sm">Peers • 14</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
