@@ -1,1 +1,42 @@
-/* Styles go here */
+.drag-drop-area:hover {
+  background-color: #e9ecef !important;
+  border-color: #adb5bd !important;
+}
+
+.file-icon {
+  transition: all 0.2s ease;
+}
+
+.table-hover tbody tr:hover .file-icon {
+  transform: scale(1.05);
+}
+
+.btn-group .btn {
+  border-radius: 4px !important;
+  margin-right: 2px;
+}
+
+.btn-group .btn:last-child {
+  margin-right: 0;
+}
+
+.status-dot {
+  flex-shrink: 0;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.badge-sm {
+  font-size: 0.7rem;
+  padding: 0.2em 0.4em;
+}
+
+.progress {
+  border-radius: 10px;
+}
+
+.progress-bar {
+  border-radius: 10px;
+}
